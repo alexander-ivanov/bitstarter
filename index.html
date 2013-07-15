@@ -31,33 +31,22 @@
         font-size: 18px;
         line-height: 24px;
       }
-      body {
-        padding-top: 20px;
-        padding-bottom: 40px;
+      /* Video pitch and Action */
+      .pitch {
+        padding: 2.5% 0%;
       }
-      .container {
-        width: 960px;
+      .order {
+        padding 2% 0%;
       }
-      p.lead {
-        padding-top: 15px;
+      .actions {
+        background-color: #343434;
+        padding: 3% 0%;
       }
-      .navigation, .pitch, .section1, .section2, .faq, .footer {
-        padding: 10px 0px 10px 0px;
-      }
-      .video, .thermometer, .order, .social {
-        border: 1px dotted;
+      .video, .thermometer, .order, .statistics {
         text-align: center;
       }
-      .video { 
-        height: 124px;
-        line-height: 124px;
-      }
-      .thermometer, .order, .social { 
-        height: 40px;
-        line-height: 40px;
-      }
-      div.row {
-        border: 1px solid;
+      .statistics h3, .statistics p {
+        color: white;
       }
     </style>
   </head>
@@ -93,9 +82,9 @@
           <p class="lead">This is my first bitstarter project.</p>
         </div>
       </div>
-      <div class="row pitch">
-        <div class="span6 video">
-          Video
+      <div class="row-fluid pitch">
+        <div class="span5 offset1 video">
+          <img class="img-polaroid" src="http://placehold.it/480x300">
         </div>
         <div class="span6">
           <div class="thermometer">
